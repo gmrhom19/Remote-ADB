@@ -37,7 +37,7 @@
    ```
     $ adb kill-server
     $ adb start-server
-      * daemon not running; starting now at tcp:5037
+      * daemon not running; starting now at tcp:5555
       * daemon started successfully
    ```
 
@@ -46,9 +46,9 @@
    ```
    $ adb devices
      List of devices attached
-     192.168.3.100:5556      device
-     192.168.3.101:5555      device
-   $ adb -s 192.168.3.101:5555 shell
+     192.168.8.144:5555      device
+     192.168.3.144:5555      device
+   $ adb -s 192.168.8.144:5555 shell
      console:/ $
    ```
 7. ##### sh:<stdin>[] ** inaccessible or not found
